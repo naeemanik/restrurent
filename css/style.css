@@ -1,0 +1,452 @@
+/* Global CSS Start */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Yeseva One', serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.menu-bar{
+    height: 2px;
+    width: 100%;
+    background: #d4b66091;
+}
+/* Global CSS End */
+/* Header CSS Start */
+header{
+    background: url(../image/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header .logo{
+    /* width: 80%; */
+}
+
+.navbar-nav{
+}
+
+.navbar-nav .nav-item{
+    padding: 0 10px;
+}
+
+.navbar-nav .nav-item.active .nav-link{
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    margin: 0 10px;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: -40px;
+    left: 0;
+    background:#fff;
+    transition: .5s linear;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+   
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    
+}
+
+header .banner-social-icon .fa{
+    color: #dab33e;
+    padding: 0 10px;
+}
+
+header .banner-social-icon .fa:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.4);
+}
+
+header .banner-hero-area{}
+
+header .banner-hero-area h1{
+    color: #fff;
+    font-size: 90px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    /* padding: 0 130px; */
+}
+
+header .banner-hero-area img{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    margin-bottom: 51px;
+}
+
+header .banner-hero-area .btn{
+    text-align: center;
+    margin: 0 15px;
+    padding: 8px 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header .banner-hero-area .btn-cta{
+    margin-left: 34%;
+    opacity: 0.8;
+    border: 1px solid #0c0c0c;
+}
+
+header .banner-hero-area .btn-cta:hover{
+    background: #1e1e1e;
+    transition: 0.3s ease-in-out;
+}
+
+header .banner-hero-area .btn-ghost{
+    border: 1px solid;
+}
+
+header .banner-hero-area .btn-ghost:hover{
+    background: #f3ecec57;
+    transition: 0.3s ease-in-out;
+}
+/* header CSS End */
+
+/* About CSS Start */
+.about{
+    background: url(../image/about-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.about .hero-area{
+    padding: 90px 10px;
+}
+
+.about h2{
+    font-size: 36px;
+    color: #cc9900;
+    margin-bottom: 10px;
+}
+
+.about .about-divider{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-bottom: 40px;
+}
+
+.about .about-cook{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 60px;
+}
+
+.about .about-dish{
+    width: 100%;
+}
+/* About CSS End */
+
+/* Ingredients CSS Start */
+.ingredients{
+    background: url(../image/ingredients-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.ingredients .hero-area{
+    width: 50%;
+    float: right;
+    background: #151414c2;
+    padding: 25px 57px;
+}
+
+.ingredients h2{
+    font-size: 36px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.ingredients .ingredients-divider{
+    margin-bottom: 25px;
+}
+
+.ingredients p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.ingredients .hero-area .ingredient-img{
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+
+/* Ingredient CSS End */
+
+/* Menu CSS Start */
+.menu{
+    background: url(../image/menu-bg.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Yeseva One', serif;
+}
+
+.menu .menu-left{
+    margin: 0 60px;
+}
+
+
+
+.menu .menu-left .main-menu{
+    margin-bottom: 50px;
+}
+
+.menu .menu-left .main-menu .speical{
+    text-align: right;
+}
+
+.menu .menu-left .main-menu .speical p{
+    margin: 0;
+    background: #d5b763;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    opacity: 1;
+}
+.menu-item :hover .speical-hover {
+    opacity: 0;
+    
+}
+
+.menu .menu-left .main-menu .menu-item{
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    font-family: 'Yeseva One', cursive;
+}
+
+.menu .menu-left .main-menu .menu-item:hover{
+
+border: 1px solid #d5b763;
+}
+
+.menu .menu-left h3{
+    font-size: 36px;
+    color: #cc9900;
+    margin-bottom: 10px;
+}
+
+.menu .menu-left img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.menu .menu-left .item-name{
+    display: inline-block;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;
+}
+
+.menu .menu-left .item-price{
+    display: inline-block;
+    float: right;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;
+}
+
+.menu .menu-left .item-details{
+    color: #4c4c4c;
+    margin-top: 10px;
+}
+/* Menu CSS End */
+
+/* Review CSS Star */
+.review{
+    background: url(../image/reviews-bg.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.review .review-hero-area{
+    background: #151414c2;
+    width: 50%;
+    padding: 45px 45px;
+    display: block;
+    margin: 0 auto;
+}
+
+.review h2{
+    color: #fff;
+    font-size: 36px;
+}
+
+.review .review-divider{
+    margin-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+}
+ .quote-img{
+    display: inline;
+    float: left;
+}
+
+.review .quote{
+    color: #dde0df;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 1.6;
+    padding: 0 45px;
+    margin-top: 15px;
+}
+
+.review p{
+    color: #fff;
+}
+/* Review CSS End */
+
+/* Reservation CSS Start */
+.reservation{
+    background: url(../image/reservation-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.reservation .reservation-img{}
+
+.reservation .hero-area{
+    padding: 0 55px;
+}
+
+.reservation .hero-area h1{
+    font-size: 36px;
+    color: #cc9900;
+    margin-bottom: 15px;
+}
+
+.reservation .hero-area img{
+    margin-bottom: 25px;
+}
+
+.reservation .hero-area p{
+    color: #4c4c4c;
+}
+
+.reservation form{
+    padding: 0 65px;
+}
+
+.reservation form p{
+    margin: 0;
+    margin-bottom: 5px;
+    color: #c9a131;
+}
+
+.reservation form input{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #c9a131;
+    background: transparent;
+    font-style: italic;
+    outline: none;
+}
+
+.reservation form select{
+    padding: 10px 80px;
+    margin-bottom: 15px;
+    border: 1px solid #c9a131;
+    background: transparent;
+    font-style: italic;
+    outline: none;
+}
+
+.reservation form .form-btn{
+    margin-top: 20px;
+}
+
+.reservation form .form-btn a{
+    background: #c9a131;
+    color: #fff;
+    padding: 5px 40px;
+    margin-left: 30%;
+    text-decoration: none;
+}
+/* Reservation CSS End */
+
+/* Footer CSS Start */
+footer{background: #191919;padding: 40px 0;}
+
+footer .footer-item{}
+
+footer .footer-item h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .footer-item .footer-divider{
+    margin-bottom: 15px;
+}
+
+
+footer .footer-item p{
+    color: #fff;
+    margin: 0;
+}
+
+footer .footer-item .payment{
+    margin-top: 50px;
+}
+
+footer .footer-item .footer-icon{
+    padding: 0 10px;
+    color: #fff;
+    margin-top: 45px;
+}
+
+footer .footer-item .fa.fa-facebook:hover{
+    color:  #4267B2;
+    transition: .5s ease-in-out;
+    transform: scale(1.5);
+}
+
+footer .footer-item .fa.fa-youtube:hover{
+    color: #c4302b;
+    transition: .5s ease-in-out;
+    transform: scale(1.5);
+}
+
+footer .footer-item .fa.fa-twitter:hover{
+    color:  #00acee;
+    transition: .5s ease-in-out;
+    transform: scale(1.5);
+}
+
+footer .footer-item .fa.fa-trello:hover{
+    color: #007AC0;
+    transition: .5s ease-in-out;
+    transform: scale(1.5);
+}
+/* Footer CSS End */
